@@ -46,7 +46,7 @@ intro =
 
 async function booster() {
 
-    const browser = await firefox.launch({ headless: false }) #You can set to "true", then it won't show the browser
+    const browser = await firefox.launch({ headless: false }) //You can set to "true", then it won't show the browser
     var page = await browser.newPage()
     const cursor = await createCursor(page)
 
@@ -55,15 +55,14 @@ async function booster() {
     console.log('\x1b[35mIG Booster | Accepted the cookies')
     await sleep(5000);
     console.log('\x1b[35mIG Booster | Logging in')
-    await page.fill('[aria-label="Phone number, username, or email"]', 'Instagram username or email'); #Paste your account email / username
-    await page.fill('[aria-label="Password"]', 'Instagram password'); #Paste your account password
+    await page.fill('[aria-label="Phone number, username, or email"]', 'Instagram username or email'); //Paste your account email / username
+    await page.fill('[aria-label="Password"]', 'Instagram password'); //Paste your account password
     await page.click('text=Log In');
     console.log('\x1b[35mIG Booster | Logged in!')
     await page.click('text=Not Now');
     await page.click('[data-testid="post-comment-text-area"]');
-    await page.fill('[data-testid="post-comment-text-area"]', "Your comment / @massMention"); #Paste here your comment
+    await page.fill('[data-testid="post-comment-text-area"]', "Your comment / @massMention"); //Paste here your comment
     await page.click('[data-testid="post-comment-input-button"]');
     console.log('\x1b[35mIG Booster | Succesfully commented')
     process.send({ created: "+1" })
 }
-//Thanks for using!
