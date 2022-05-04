@@ -66,3 +66,4 @@ async function booster() {
     console.log('\x1b[35mIG Booster | Succesfully commented')
     process.send({ created: "+1" })
 }
+//Thanks for using!
