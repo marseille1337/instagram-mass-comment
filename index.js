@@ -50,7 +50,7 @@ async function booster() {
     var page = await browser.newPage()
     const cursor = await createCursor(page)
 
-    await page.goto('Instagram post link'); #Paste your post link
+    await page.goto('Instagram post link'); //Paste your post link
     await page.click('text=Allow essential and optional cookies');
     console.log('\x1b[35mIG Booster | Accepted the cookies')
     await sleep(5000);
