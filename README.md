@@ -7,7 +7,7 @@ Instagram Mass Comment Tool
 
 *Why do i release this?*
 
-A lot of peoples are selling mass mention / mass comment bots for instagram, for a lot of money, so i thought i've code a own one, which is public and free! Enjoy it
+A lot of peoples are selling mass mention / mass comment / mass advertising bots for instagram, for a lot of money, so i thought i've code a own one, which is public and free! Enjoy it
 
 *How does it work?*
 
